@@ -14,12 +14,11 @@
         $rate = $cube['rate'];
         
         echo "<div style='flex-direction:row;display:flex;justify-content:center;gap:10px'>
-                <p style='font-size:130%;color:#2980b9;font-weight:bold;'>$currency</p>
-                <p style='font-size:130%;'> $rate</p>
+        <p style='font-size:130%;'> Currency:</p>
+        <p style='font-size:130%;color:#2980b9;font-weight:bold;'>$currency</p>
+        <p style='font-size:130%;'> Rate:</p>
+        <p style='font-size:130%;color:#2980b9;font-weight:bold;'> $rate</p>
               </div>";
     }
 ?>
 </div>
-
-</body>
-</html>
